@@ -31,7 +31,7 @@ public class PointApplication {
                 pc.minusY(p1);
                 break;
             default:
-                System.out.println("Podano błędną wartość lub jej brak");
+                System.out.println("Podano błędną wartość");
         }
 
         System.out.println("Punkt po zmianie: (" + p1.getX() + ";" + p1.getY() + ")");
